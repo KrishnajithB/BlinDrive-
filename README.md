@@ -100,7 +100,7 @@ Two road samples were used for testing:
 |------|-------------|------|
 | 1 | Simple road | [Watch](https://youtu.be/Ojz3Fqyc_M8) |
 | 2 | Curvy road | [Watch](https://youtu.be/GlgoxTPY9U4) |
-
+| 3 | Curvy road with camera rotation | [Watch](https://youtu.be/tkHCuT7yrfs) |
 ---
 
 ## ⚠️ Limitations
