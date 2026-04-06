@@ -4,9 +4,15 @@
 
 Blindrive is a self-driving car project built using **UPBGE simulation** and a **CNN regression model**. The system learns to predict steering angles directly from images.
 
+> **🚧 Progress**
+> - Model predictions have been improved
+> - Now capable of handling **sharp turns more effectively**
+
 > **⚠️ Current Status**
-> - Works well on **simple / slightly curved roads**
-> - Struggles on **sharp or complex curves**
+> - Works well on **simple and curved roads**
+> - Struggles when **another part of the road is seen**
+> - Pure **image-to-steering prediction** (no real physics modeling)
+> - Car moves with **slow and mostly constant speed**
 > - Still under active improvement
 
 ---
@@ -63,7 +69,6 @@ python scripts/train_model.py
 
 ```
 model/
-├── model.keras
 └── model_best.onnx
 ```
 
